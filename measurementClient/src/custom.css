@@ -1,0 +1,142 @@
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
+
+div.error {
+    margin-bottom: 25px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 110%;
+    color: red;
+}
+
+input.error,
+input.error:active,
+input.error:focus,
+select.error {
+    border: 2px solid red;
+}
+
+#graph-button,
+#view-button,
+#insert-button,
+#back-button {
+    margin-bottom: 40px;
+}
+
+#back-button,
+#graph-button {
+  margin-right: 25px;
+}
+
+#graph-button a,
+#view-button a,
+#insert-button a,
+#back-button a {
+    padding: 15px 20px;
+    color: white;
+    border-radius: 7px;
+    text-decoration: none;
+}
+
+#insert-button a {
+  background-color: green;
+}
+
+#back-button a {
+  background-color: grey;
+}
+
+#graph-button a,
+#view-button a {
+  background-color: purple;
+}
+
+#graph-button a:hover,
+#view-button a:hover,
+#insert-button a:hover,
+#back-button a:hover {
+    background-color: black;
+}
+
+#insert-form .button {
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#insert-form #cancel-button {
+    background-color: grey;
+}
+
+.info-text {
+    margin-bottom: 25px;
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 115%;
+}
+
+.delete-button,
+.delete-button:active,
+.delete-button:focus {
+    background-color: red;
+    padding: 7px 10px;
+}
+
+.edit-button {
+    padding: 7px 10px;
+}
+
+.delete-button:hover,
+.edit-button:hover {
+    background-color: black;
+}
+
+#filter-users div {
+    margin-bottom: 15px;
+}
+
+#filter-users input,
+#filter-users label {
+    display: inline;
+}
+
+#filter-users input {
+    margin-right: 10px;
+}
+
+.select-date {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.select-date fieldset span {
+  float: left;
+  margin-right: 20px;;
+}
+
+.select-date fieldset span.clear {
+  clear: left;
+}
+
+#select-unit-name,
+.select-date fieldset select {
+  padding-right: 40px;
+}
+
+#measurement-filters #unit-name {
+  display: inline-block;
+  vertical-align: top;
+}
+
+#measurement-filters #submit-form {
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 40px;
+  margin-left: 25px;
+}
